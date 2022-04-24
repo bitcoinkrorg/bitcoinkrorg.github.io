@@ -1,0 +1,196 @@
+/* -------------------------------- 
+
+Basic style
+
+-------------------------------- */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+  line-height: 1.4;
+}
+.header {
+	display: grid;
+	grid-template-columns: 250px auto 250px;
+	width: 100%;
+	padding: 2.5em 0;
+}
+.logo {
+	font-size:1.4em;
+	font-weight: 600;
+	text-align:center;
+}
+.menu {
+	text-align: center;
+	font-weight: 500;
+	padding-top:0.6em;
+	li {
+		display: inline-block;
+		vertical-align: top;
+		a:hover {
+			//text-decoration: underline;
+			border-bottom: 1px solid #000;
+		}
+	}
+}
+.menu_btn {
+	text-align: center;
+	img {
+		width: 55px;
+	}
+}
+.footer {
+	border-top: 1px solid #eeeeee;
+	padding: 0 2em;
+}
+.footer-extra {
+	border-radius: 2.8em;
+	margin: 1.6em 0em 0;
+
+}
+.footer-extra-content {
+	padding: 5em 2em 2em;
+	min-height: 20em;
+	h3 {
+	font-size: 2.8em;
+	}
+}
+.footer-content {
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+/* -------------------------------- 
+
+Container
+
+-------------------------------- */
+.wrap {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+.wrapS {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.wrapXS { /* post content width */
+	max-width: 730px;
+	margin: 0 auto;
+}
+.wrapL {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+.wrapXL {
+	max-width: 1900px;
+	margin: 0 auto;
+}
+/* -------------------------------- 
+
+Header & Link
+
+-------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 500;
+	line-height: 1.2;
+}
+h1 {
+	font-size: 5em;
+	font-weight: 600;
+}
+h2 {
+	font-size: 4em;
+}
+h3 {
+	font-size: 2.2em;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+strong {
+	font-weight: 600;
+}
+/* -------------------------------- 
+
+Column
+
+-------------------------------- */
+.col-2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 3em;
+	row-gap: 3em;
+}
+.col-2-cont {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 3em;
+	row-gap: 3em;
+}
+.col-4 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	column-gap: 3em;
+	row-gap: 3em;
+}
+/* -------------------------------- 
+
+Color Background
+
+-------------------------------- */
+.black {
+	background-color: black !important;
+	color: white;
+
+	a {
+		color: white;
+	}
+}
+.gray {
+	background-color: #F2F2F2 !important;
+
+}
+.text-left {
+	text-align: left !important;
+}
+
+/* -------------------------------- 
+
+Added style
+
+-------------------------------- */
+.type {
+	border-radius: .4em;
+	padding: 0.2em;
+	font-size: 0.6em;
+	color:white;
+	font-weight: 600;
+}
+.type-pdf {
+	background-color: #D50A0A;
+}
+.type-web {
+	background-color: #343434;
+}
+.type-doc {
+	background-color: #0A40D5;
+}
+.btn_round {
+	border-radius: 100%;
+	text-align: center;
+	height: 6em;
+	width: 6em;
+	background: white;
+	line-height: 6em;
+	font-size: 0.9em;
+}
+.btn_more {
+	text-align: center;
+	display: block;
+	font-size: 0.9em;
+	line-height: 5em;
+}
+.btn_address {
+	font-size: 0.8em;
+}

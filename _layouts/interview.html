@@ -1,0 +1,42 @@
+{% include header.html %}
+
+<div class="body">
+	<div class="post-header wrapL">
+		<h6>meet bitcoin hodlers</h6>
+		<h1><a href="{{ post.url | prepend: site.baseurl }}">궁금합니다: {{ page.title }}</a></h1>
+	</div>
+	<div class="post-info wrapS">
+		<div class="block">
+			<div class="post-profile" style="background-image: url({{ site.url }}/asset/img/profile/{{ page.authorid }}.jpg);"></div>
+			<div class="post-extra">
+				<div class="post-id"><a href="{{ site.url }}/tag/{{ page.authorid }}">{{ page.author }}</a></div>
+				<div class="post-date">발행날짜: {{ page.date | date: "%Y-%m-%d" }}</div>
+			</div>
+
+		</div>
+		<div class="block post-excerpt">
+			<p>"{{ page.excerpt }}"</p>
+		</div>
+	</div>
+	<div class="post-content text">
+		{% if page.thumbnail %}
+		<div class="featured-image">
+			<img src="{{ site.url }}/asset/img/thumb/{{ page.thumbnail }}" alt="">
+		</div>
+		{% endif %}
+		
+		<div class="wrapXS">
+			{{ content }}
+		</div>
+	</div>
+
+	<div class="block" style="text-align: center;padding: 4em 0;">
+				<ul class="profile-list">
+					{% for post in site.categories.interview %}
+					<li><a href="{{ post.url | prepend: site.baseurl }}" style="background-image: url(../../../../asset/img/profile/{{ post.authorid }}.jpg);" class="profile-photo"></a><a href="{{ post.url | prepend: site.baseurl }}" class="profile-name">{{ post.title }}</a></li>
+					{% endfor %}
+				</ul>
+	</div>
+
+</div>
+{% include footer.html %}

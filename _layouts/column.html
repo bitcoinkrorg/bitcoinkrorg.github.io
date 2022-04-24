@@ -1,0 +1,42 @@
+{% include header.html %}
+
+<div class="body">
+	<div class="post-header wrapL">
+		<h6>bitcoinkr original post</h6>
+		<h1><a href="{{ post.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
+	</div>
+	<div class="post-info wrapS">
+		<div class="block">
+			<div class="post-profile" style="background-image: url({{ site.url }}/asset/img/profile/{{ page.authorid }}.jpg);"></div>
+			<div class="post-extra">
+				<div class="post-id"><a href="{{ site.url }}/tag/{{ page.authorid }}">{{ page.author }}</a></div>
+				<div class="post-date">발행날짜: {{ page.date | date: "%Y-%m-%d" }}</div>
+			</div>
+
+		</div>
+		<div class="block post-excerpt">
+			<p>"{{ page.excerpt }}"</p>
+		</div>
+	</div>
+	<div class="post-content text">
+		{% if page.thumbnail %}
+		<div class="featured-image">
+			<img src="{{ site.url }}/assets/img/thumb/{{ page.thumbnail }}" alt="">
+		</div>
+		{% endif %}
+		
+		<div class="wrapXS">
+			{{ content }}
+		</div>
+	</div>
+
+	<div class="block" style="text-align: center;padding-top:4em;padding-bottom:4em;">
+				<ul class="article-list">
+					{% for post in site.categories.column %}
+					<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.author }}</span></li>
+					{% endfor %}
+				</ul>
+	</div>
+
+</div>
+{% include footer.html %}

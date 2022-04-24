@@ -1,0 +1,63 @@
+/* -------------------------------- 
+
+Single Post
+
+post-header
+post-info
+post-content, text
+
+-------------------------------- */
+
+.post-header {
+	
+	padding: 6em 3em 0;
+	h6 {
+		text-align: center;
+		color: #C8C8C8;
+		font-size: 1.4em;
+		padding-bottom: 2em;
+
+		span {
+			text-decoration: underline;
+		}
+	}
+	h1 {
+		text-align: center;
+		padding-bottom: 1em;
+	}
+}
+.post-info {
+	
+	padding: 0 5em 5em;
+	display: grid;
+	grid-template-columns: 39% 61%;
+
+	.block:nth-child(1) {
+		padding-right: 4%;
+		display: grid;
+		grid-template-columns: 100px auto;
+
+	}
+}
+.post-profile {
+	width: 70px;
+	height: 70px;
+	background-size: cover;
+	border-radius: 100%;
+}
+.post-id {
+	font-weight: 500;
+	font-size: 1.2em;
+	padding-bottom:.5em;
+}
+.post-date {
+	color: #ACACAC;
+}
+.post-excerpt {
+	font-size: 1.2em;
+}
+.post-content {
+	padding: 5em 0;
+	font-size: 1.2em;
+	background-color: #f4f4f4;
+}

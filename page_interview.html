@@ -1,0 +1,26 @@
+---
+layout: default
+title: Interview
+permalink: /interview/
+---
+
+<div class="body">
+	<div class="page-header wrap">
+		<h6>비트코인 호들러들</h6>
+		<h1><a href="">비트코인 피플</a></h1>
+		<p class="wrapXS">비트코인에 대해 고민하고 공부하며 오랜지필을 복용하게 된 비트코이너들의 이야기.  시작은 각각 다르지만 비트코인이 이 시대에 주목해야 하는 현상임에 모두가 동의 중.</p>
+	</div>
+
+	<div class="page-content">
+		<div class="wrapL">
+			<div class="block" style="text-align: center;">
+				<ul class="profile-list">
+					{% for post in site.categories.interview %}
+					<li><a href="{{ post.url | prepend: site.baseurl }}" style="background-image: url(../asset/img/profile/{{ post.authorid }}.jpg);" class="profile-photo"></a><a href="{{ post.url | prepend: site.baseurl }}" class="profile-name">{{ post.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</div>

@@ -1,0 +1,50 @@
+---
+layout: default
+title: Post
+permalink: /posts/
+---
+
+<div class="body">
+	<div class="page-header wrap">
+		<h6>비트코인 번역글, 칼럼</h6>
+		<h1><a href="">비트코인 포스트</a></h1>
+		<p class="wrapXS">새로운 회계연도가 개시될 때까지 예산안이 의결되지 못한 때에는 정부는 국회에서 예산안이 의결될 때까지 다음의 목적을 위한 경비는 전년도 예산에 준하여 집행할 수 있다.</p>
+	</div>
+
+	<div class="page-content">
+		<div class="page-section gray wrapL">
+				<div class="block" style="text-align: center;">
+				<hgroup style="padding-bottom:3em;">
+				<h6>비트코인 전문가 칼럼</h6>
+				<h3>비트코인 칼럼</h3>
+				</hgroup>
+				<ul class="article-list">
+					{% for post in site.categories.column  limit: 40 %}
+					<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.author }}</span></li>
+					{% endfor %}
+				</ul>
+				<a href="{{ site.url }}/column" class="btn_round">More</a>
+			</div>
+		</div>
+
+		<div class="page-section wrapL">
+			<div class="page-section-content col-2 wrapS">
+				<div class="block">
+					<h6>번역</h6>
+					<h3>비트코인 번역글</h3>
+					<p>새로운 회계연도가 개시될 때까지 예산안이 의결되지 못한 때에는 정부는 국회에서 위한 경비는 전년도 예산에 준하여 집행할 수 있다.</p>
+				</div>
+				<div class="list">
+					<ul>
+						{% for post in site.categories.translation %}
+					<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.ori_author }}</span></li>
+					{% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+</div>

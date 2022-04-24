@@ -1,0 +1,26 @@
+---
+layout: default
+title: Column
+permalink: /column/
+---
+
+<div class="body">
+	<div class="page-header wrap">
+		<h6>비트코인 전문가 칼럼</h6>
+		<h1><a href="">비트코인 칼럼</a></h1>
+		<p class="wrapXS">비트코인너들의 오피니언들이 공유되는 칼럼공간 입니다.  현 시대적 현상을 비트코인너의 시각으로 풀어봅니다.</p>
+	</div>
+
+	<div class="page-content">
+		<div class="wrapL">
+			<div class="block" style="text-align: center;">
+				<ul class="article-list">
+					{% for post in site.categories.column %}
+					<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.author }}</span></li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</div>
