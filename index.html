@@ -66,7 +66,7 @@ layout: home
 				<h3>비트코인 번역글</h3>
 				</hgroup>
 				<ul class="article-list">
-					{% for post in site.categories.translation  limit: 6 %}
+					{% for post in site.categories.translation  limit: 24 %}
 					<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.ori_author }}</span></li>
 					{% endfor %}
 				</ul>
