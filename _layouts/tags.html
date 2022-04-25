@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+
+
+
+<div class="body">
+	<div class="page-header wrap">
+		<h6>비트코인 KR</h6>
+		<h1><a href="">{{ page.tag-name }}</a></h1>
+		<p class="wrapXS">author: {{ page.tag-name }} 님께서 남기신 기록들.</p>
+		{% if page.twitter-id %}
+		<p>연락: <a href="https://twitter.com/{{ page.twitter-id }}">@{{ page.twitter-id }}</a></p>
+		{% endif %}
+	</div>
+
+	<div class="page-content">
+		<div class="wrapL">
+			<div class="block" style="text-align: center;padding-bottom: 4em;">
+				<ul class="article-list">
+					{% for post in site.posts %}
+					{% if post.tags contains page.tag-name %}
+					<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.ori_author }}</span></li>
+					{% endif %}
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+</div>
