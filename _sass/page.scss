@@ -73,7 +73,9 @@ article-list
 					a {
 					display: block;
 					width: 100%;
-					background: #f4f4f4;
+					background-color: #f4f4f4;
+					background-size: cover;
+					background-position: center;
 					height: 8em;
 					border-radius: 1em;
 					margin-bottom: 0.4em;
@@ -175,6 +177,32 @@ article-list
 		.book-name {
 			font-size: 0.9em;
 			width: 120px;
+			text-align: left;
+			display: block;
+			padding-top: 1em;
+		}
+	}
+}
+.site-list {
+	li {
+		display: inline-block;
+		margin: 1.5em;
+		text-align: center;
+		vertical-align: top;
+
+		.site-screenshot {
+			background-color: #f4f4f4;
+			box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.07);
+			border: 1px solid #eee;
+			background-size: cover;
+			border-radius: .4em;
+			display: block;
+			width: 180px;
+			height: 120px;
+		}
+		.site-name {
+			font-size: 0.9em;
+			width: 180px;
 			text-align: left;
 			display: block;
 			padding-top: 1em;

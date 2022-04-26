@@ -271,4 +271,22 @@ page
 			}
 		}
 	}
+	.book-list {
+		li {
+			margin: 1em;
+		}
+	}
+	.site-list {
+		li {
+			margin: 1em;
+			.site-screenshot {
+				width: 120px;
+				height: 80px;
+			}
+			.site-name {
+				width: 120px;
+				overflow-x: hidden;
+			}
+		}
+	}
 }
