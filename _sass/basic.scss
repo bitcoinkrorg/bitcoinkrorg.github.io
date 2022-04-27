@@ -160,6 +160,15 @@ Color Background
 Added style
 
 -------------------------------- */
+.twitter {
+	width: 1.3em;
+	height: 1em;
+	background-image: url(../../asset/img/icon/twitter.png);
+	background-size: 1.3em;
+	background-repeat: no-repeat;
+	//background-color:red;
+	display: inline-block;
+}
 .type {
 	border-radius: .4em;
 	padding: 0.2em;

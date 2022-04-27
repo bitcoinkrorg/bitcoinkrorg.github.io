@@ -144,14 +144,21 @@ article-list
 		.block-content {
 			padding-top: 1em;
 			//background: red;
+			li {
+				width: 80px;
+				display: inline-block;
+			}
 			a {
-				float: right;
-				margin-left: 1em;
+				
 				display: block;
-				width: 100px;
-				height: 100px;
+				width: 80px;
+				height: 80px;
 				background-color: #f4f4f4;
 				border-radius: 100%;
+			}
+			span {
+				padding-top: .5em;
+				font-size: 0.9em;
 			}
 		}
 	}

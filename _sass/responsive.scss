@@ -144,6 +144,12 @@ Home
 				grid-template-columns: 1fr 1fr;
 				border-bottom: 1px solid #eeeeee;
 				padding-bottom: 2em;
+
+				.home-updates-posts {
+					li {
+						padding-right: 0;
+					}
+				}
 			}
 	}
 }
@@ -163,7 +169,13 @@ Home
 	}
 }
 @media (max-width: 600px) {
-
+	.home-show {
+		h1 {
+			span {
+				display: block;
+			}
+		}
+	}
 }
 
 @media (max-width: 400px) {

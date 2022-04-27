@@ -13,6 +13,14 @@ home-posts
 	grid-template-columns: 40% 60%;
 	padding: 0px 0 50px;
 
+	.icon-block {
+		display: block;
+		width: 49px;
+		height: 49px;
+		background-size: 49px;
+		background-repeat: no-repeat;
+		margin-bottom: 0.7em;
+	}
 	.home-updates {
 		margin: 10em 0 0 5em;
 		font-size: 1.2em;
@@ -37,6 +45,9 @@ home-posts
 		.home-updates-posts {
 			h4 {
 				padding-top: 4em;
+			}
+			li {
+				padding-right: 2em;
 			}
 		}
 	}
