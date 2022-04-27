@@ -14,4 +14,7 @@ date
 
 category
 tag
+ twitter-id
+ donate-id
+
 
