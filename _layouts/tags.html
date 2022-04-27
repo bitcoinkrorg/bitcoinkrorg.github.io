@@ -10,9 +10,17 @@ layout: default
 		<h6>비트코인 KR</h6>
 		<h1><a href="">{{ page.tag-name }}</a></h1>
 		<p class="wrapXS">author: {{ page.tag-name }} 님께서 남기신 기록들.</p>
-		{% if page.twitter-id %}
-		<p>연락: <a href="https://twitter.com/{{ page.twitter-id }}">@{{ page.twitter-id }}</a></p>
-		{% endif %}
+		
+		<p class="wrapXS" style="font-size: 0.9em;padding-top: 0.5em;">
+			{% if page.twitter-id %}
+				<i class="twitter"></i> <a href="https://twitter.com/{{ page.twitter-id }}" style="color:#00A2F5;font-weight:500;">@{{ page.twitter-id }}</a>
+			{% endif %}
+			{% if page.donate-id %}
+				/ <span>{{ page.donate-id }}</span>
+			{% endif %}
+
+		</p>
+		
 	</div>
 
 	<div class="page-content">
