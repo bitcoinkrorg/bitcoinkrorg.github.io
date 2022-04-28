@@ -144,20 +144,28 @@ article-list
 		.block-content {
 			padding-top: 1em;
 			//background: red;
+			ul {
+				text-align: right;
+			}
 			li {
-				width: 80px;
+				vertical-align: top;
+				text-align: center;
+				width: 100px;
 				display: inline-block;
+				margin-left: 1.5em;
 			}
 			a {
 				
 				display: block;
-				width: 80px;
-				height: 80px;
+				width: 100px;
+				height: 100px;
 				background-color: #f4f4f4;
 				border-radius: 100%;
+				background-size: cover;
+				background-position: center;
 			}
 			span {
-				padding-top: .5em;
+				padding-top: .8em;
 				font-size: 0.9em;
 			}
 		}
