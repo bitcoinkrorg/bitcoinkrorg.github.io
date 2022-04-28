@@ -34,10 +34,10 @@
 		
 	</div>
 
-	<div class="block" style="text-align: center;padding: 4em 0;">
+	<div class="block wrapL" style="text-align: center;padding: 4em 0;">
 				<ul class="article-list">
 					{% for post in site.categories.translation %}
-					<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.ori_author }}</span></li>
+					<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.author }}<br>{{ post.ori_author }}</span></li>
 					{% endfor %}
 				</ul>
 	</div>
