@@ -13,10 +13,10 @@ permalink: /translation/
 
 	<div class="page-content">
 		<div class="wrapL">
-			<div class="block" style="text-align: center;">
+			<div class="block wrapL" style="text-align: center;">
 				<ul class="article-list">
 					{% for post in site.categories.translation %}
-					<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.ori_author }}</span></li>
+					<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.author }}<br>{{ post.ori_author }}</span></li>
 					{% endfor %}
 				</ul>
 			</div>
