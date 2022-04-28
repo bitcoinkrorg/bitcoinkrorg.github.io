@@ -5,13 +5,16 @@ Article text style
 -------------------------------- */
 .text {
 	line-height: 1.6;
-
+	overflow-wrap: break-word;
+	a {
+		text-decoration: underline;
+	}
 	p {
 		padding-top: 1em;
 		padding-bottom: 1.4em;
 	}
 	h1 {
-		font-size: 2em;
+		font-size: 3em;
 		padding-bottom: 1.4rem;
 	}
 	h2 {
