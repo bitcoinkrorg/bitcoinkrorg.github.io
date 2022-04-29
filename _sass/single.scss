@@ -61,3 +61,11 @@ post-content, text
 	font-size: 1.2em;
 	background-color: #f4f4f4;
 }
+.footnotes {
+	border-top: 1px solid #ddd;
+	font-size: 0.8em;
+	padding-top: 2em;
+	p {
+		padding-top: 0;
+	}
+}

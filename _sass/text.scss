@@ -9,6 +9,12 @@ Article text style
 	a {
 		text-decoration: underline;
 	}
+	sup {
+		vertical-align: super;
+		font-size: 80%;
+		font-weight: bold;
+		padding-right: 0.5em;
+	}
 	p {
 		padding-top: 1em;
 		padding-bottom: 1.4em;
