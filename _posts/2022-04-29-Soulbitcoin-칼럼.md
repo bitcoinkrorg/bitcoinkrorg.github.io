@@ -12,7 +12,7 @@ excerpt: "세상의 변화와 새로운 아이디어를 이해해가는 여정�
 
 ## Q. 반갑습니다! 간단한 자기소개 부탁드립니다.
 
-소울비트코인 [https://twitter.com/soulbitcoin](@SoulBitcoin) 이라는 트위터로 활동하고 있습니다.<br>
+소울비트코인 [@SoulBitcoin](https://twitter.com/soulbitcoin) 이라는 트위터로 활동하고 있습니다.<br>
 비트코인 및 크립토 시장 전반에 대한 번역을 위주로 나누고 싶은 자료를 만들어 올리고 있습니다.
 
 ## Q. 비트코인을 만난 계기 그리고 올인 하게된 계기
