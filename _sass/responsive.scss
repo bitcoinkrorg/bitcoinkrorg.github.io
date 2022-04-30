@@ -35,7 +35,7 @@ Basic
 }
 @media (max-width: 600px) {
 	h1 {
-	font-size: 3.4em;
+	font-size: 3em;
 	}
 	.header {
 		grid-template-columns: 1fr;
@@ -46,6 +46,9 @@ Basic
 		a {
 			color: white;
 		}
+	}
+	.mobile-newline {
+		display: block;
 	}
 }
 
@@ -270,6 +273,22 @@ page
 	}
 	.page-section {
 		padding: 6em 1.5em;
+	}
+	.community-list {
+		.block {
+			padding: 2em 1em;
+			.block-content {
+				padding-top: 1em;
+				ul {
+					text-align: left;
+					li {
+						margin-right: 1.5em;
+						margin-left: 0;
+						margin-bottom: 1em;
+					}
+				}
+			}
+		}
 	}
 	.article-list {
 		padding: 0 1em;
