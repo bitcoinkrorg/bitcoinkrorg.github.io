@@ -13,14 +13,6 @@ home-posts
 	grid-template-columns: 40% 60%;
 	padding: 0px 0 50px;
 
-	.icon-block {
-		display: block;
-		width: 49px;
-		height: 49px;
-		background-size: 49px;
-		background-repeat: no-repeat;
-		margin-bottom: 0.7em;
-	}
 	.home-updates {
 		margin: 10em 0 0 5em;
 		font-size: 1.2em;
@@ -146,4 +138,33 @@ home-posts
 			}
 		}
 	}
+}
+.icon-block {
+	display: block;
+	width: 49px;
+	height: 49px;
+	background-size: 49px;
+	background-repeat: no-repeat;
+	margin-bottom: 0.7em;
+}
+
+.tooltip .tooltiptext {
+	font-size: 1.2em;
+  visibility: hidden;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align:left;
+  border-radius: 6px;
+  padding: 5px 5px;
+  bottom: 80%;
+  margin-left: -110px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
