@@ -33,7 +33,7 @@
 	<div class="block" style="text-align: center;padding: 4em 0;">
 				<ul class="profile-list">
 					{% for post in site.categories.interview %}
-					<li><a href="{{ post.url | prepend: site.baseurl }}" style="background-image: url(../../../../asset/img/profile/{{ post.authorid }}.jpg);" class="profile-photo"></a><a href="{{ post.url | prepend: site.baseurl }}" class="profile-name">{{ post.title }}</a></li>
+					<li><a href="{{ post.url | prepend: site.baseurl }}" style="background-image: url(../../../../asset/img/profile_supporters/{{ post.authorid }}.jpg);" class="profile-photo"></a><a href="{{ post.url | prepend: site.baseurl }}" class="profile-name">{{ post.title }}</a></li>
 					{% endfor %}
 				</ul>
 	</div>
