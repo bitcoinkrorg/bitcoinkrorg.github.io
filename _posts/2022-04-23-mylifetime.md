@@ -4,10 +4,10 @@ category: interview
 
 author: "MyLifeTime"
 authorid: mylifetime
-tag: mylifetime
 title: "My Life Time"
 date: 2022-04-22
 excerpt: "모두가 나만의 비트코인을 지키기 위해 공부도 정말 많이 해야하고 끝 없이 고민하는 시간이 필요한 쉽지 않은 여정 길에 있지만, 노력한 만큼 나만의 자유로워진 비트코인을 가진! 그 보다 더 자유로워진 비트코이너가 되시길 언제나 응원하겠습니다."
+twitter-id: seongjaejeong
 ---
 
 ### 0: 반갑습니다!  자기소개를 5단어 이내로 적어주세요.
