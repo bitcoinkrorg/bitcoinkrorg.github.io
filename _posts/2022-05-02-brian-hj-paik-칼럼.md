@@ -6,7 +6,7 @@ author: brian paik
 authorid: brianpaik
 tag: brianpaik
 title: "칼럼니스트: Brian HJ Paik"
-date: 2022-05-02 10:50:00 +0900
+date: 2022-05-01 10:50:00 +0900
 excerpt: "그렇게 저는 비트코인 래빗홀에 빠지게 되었고, 지금은 하루하루를 비트코인에 올인하는 삶을 살고 있습니다."
 ---
 
