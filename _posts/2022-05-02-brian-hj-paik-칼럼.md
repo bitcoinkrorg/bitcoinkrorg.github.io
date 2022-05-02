@@ -11,7 +11,7 @@ excerpt: "그렇게 저는 비트코인 래빗홀에 빠지게 되었고, 지금
 ---
 
 ## Q. 반갑습니다! 간단한 자기소개 부탁드립니다.
-반갑습니다! 저는 한국에서 디에이그라운드라는 스타트업에서 공동창업자 겸 COO로 일하고있는 백훈종이라고 합니다. 디에이그라운드는 설립된지 이제 3년 된 신생 회사이고, 현재 샌드뱅크라는 크립토 예치 투자 서비스를 한국의 암호화폐 투자자들을 대상으로 제공하고 있습니다 (샌드뱅크 많이 이용해주세요!). 최근들어 신문 칼럼이나 유튜브 영상을 통해 비트코인 교육 컨텐츠를 제공하고 있는데, 다행히 많은 분들이 좋아해주시고 호응 해주셔서 이렇게 좋은 기회로까지 연결된것 같습니다. 
+반갑습니다! 저는 한국에서 디에이그라운드라는 스타트업에서 공동창업자 겸 COO로 일하고있는 백훈종이라고 합니다. 디에이그라운드는 설립된지 이제 3년 된 신생 회사이고, 현재 [샌드뱅크](https://sandbank.io/)라는 크립토 예치 투자 서비스를 한국의 암호화폐 투자자들을 대상으로 제공하고 있습니다 (샌드뱅크 많이 이용해주세요!). 최근들어 신문 칼럼이나 유튜브 영상을 통해 비트코인 교육 컨텐츠를 제공하고 있는데, 다행히 많은 분들이 좋아해주시고 호응 해주셔서 이렇게 좋은 기회로까지 연결된것 같습니다. 
 
 제가 암호화폐 산업에 처음 발을 들이게된 계기는 창업 전 코인원 거래소에서 법인영업 매니저로 1년정도 일하면서 부터입니다. 그 전에는 세아상역이라는 의류 OEM 벤더에서 오래 일했는데, 많은 직장인 분들이 공감하시는것처럼 5년차가 되니 회사생활에 실증이나고 퇴사욕구가 용솟음치며 삶에 변화를 주고싶더라구요. 그래서 원티드에 들어가 최대한 혁신적이고 미래 지향적인 산업에 있는 회사들로 지원을 했는데 그만 코인원에 덜컥 합격해버린 겁니다. 그렇게 지금까지 이 업계에서 쭈욱 커리어를 쌓아오고 있습니다.
 
@@ -36,5 +36,5 @@ excerpt: "그렇게 저는 비트코인 래빗홀에 빠지게 되었고, 지금
 
 ## 고기를 좋아하시는 Brian님 답변 감사합니다. ♥️
 
-<blockquote class="twitter-tweet"><p lang="ko" dir="ltr">오늘 저녁은 <a href="https://twitter.com/hashtag/carnivore?src=hash&amp;ref_src=twsrc%5Etfw">#carnivore</a> diet!<br>Fiat mentality 에서 벗어나려면 식습관부터 고쳐야합니다. <a href="https://t.co/GcthArEWxi">pic.twitter.com/GcthArEWxi</a></p>&mdash; Brian HoonJong Paik (@brianhoonjong) <a href="https://twitter.com/brianhoonjong/status/1509516932541607938?ref_src=twsrc%5Etfw">March 31, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ko" dir="ltr">오늘도 낮은 시간선호! <a href="https://twitter.com/hashtag/Carnivore?src=hash&amp;ref_src=twsrc%5Etfw">#Carnivore</a> <a href="https://twitter.com/hashtag/%EC%82%B4%EC%B9%98%EC%82%B4?src=hash&amp;ref_src=twsrc%5Etfw">#살치살</a> <a href="https://t.co/SDvCgyOmmq">pic.twitter.com/SDvCgyOmmq</a></p>&mdash; Brian HoonJong Paik (@brianhoonjong) <a href="https://twitter.com/brianhoonjong/status/1512619724886405121?ref_src=twsrc%5Etfw">April 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
