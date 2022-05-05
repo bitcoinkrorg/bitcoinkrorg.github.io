@@ -2,9 +2,6 @@
 layout: default
 ---
 
-
-
-
 <div class="body">
 	<div class="page-header wrap">
 		<h6>비트코인 KR</h6>
@@ -13,7 +10,7 @@ layout: default
 		
 		<p class="wrapXS" style="font-size: 0.9em;padding-top: 0.5em;">
 			{% if page.twitter-id %}
-				<i class="twitter"></i> <a href="https://twitter.com/{{ page.twitter-id }}" style="color:#00A2F5;font-weight:500;">@{{ page.twitter-id }}</a>
+				<i class="twitter"></i> <a href="https://twitter.com/{{ page.twitter-id }}" style="color:#00A2F5;font-weight:500;" target="_blank">@{{ page.twitter-id }}</a>
 			{% endif %}
 			{% if page.donate-id %}
 				/ <span>{{ page.donate-id }}</span>
@@ -29,7 +26,7 @@ layout: default
 				<ul class="article-list">
 					{% for post in site.posts %}
 					{% if post.tags contains page.tag-name %}
-					<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.ori_author }}</span></li>
+					<li><a href="{{ post.url | prepend: site.baseurl }}" class="post-title">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.ori_author }}</span></li>
 					{% endif %}
 					{% endfor %}
 				</ul>
