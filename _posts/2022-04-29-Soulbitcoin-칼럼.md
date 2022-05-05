@@ -8,6 +8,7 @@ tag: soulbitcoin
 title: "칼럼니스트: SoulBitcoin"
 date: 2022-04-29
 excerpt: "세상의 변화와 새로운 아이디어를 이해해가는 여정에 작은 부분이나마 기여할 수 있다면 좋겠습니다."
+comments: true
 ---
 
 ## Q. 반갑습니다! 간단한 자기소개 부탁드립니다.

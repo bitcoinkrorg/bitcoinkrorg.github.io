@@ -8,6 +8,7 @@ tag: atomicbtc
 title: "칼럼니스트: AtomicBTC"
 date: 2022-04-27
 excerpt: "바램은 많은분들이 비트코인에 대해 같이 토론하고 이야기하는 문화가 생겼으면 좋겠습니다."
+comments: true
 ---
 
 ## Q. 반갑습니다! 간단한 자기소개 부탁드립니다.

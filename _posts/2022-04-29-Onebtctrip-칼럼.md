@@ -8,6 +8,7 @@ tag: onebtctrip
 title: "칼럼니스트: Onebtctrip"
 date: 2022-04-29
 excerpt: "비트코인 하나로 세계를 여행하고 있는 onebtctrip 입니다!"
+comments: true
 ---
 
 <blockquote class="twitter-tweet"><p lang="ko" dir="ltr"><a href="https://twitter.com/hashtag/onebtctip?src=hash&amp;ref_src=twsrc%5Etfw">#onebtctip</a> 자꾸 제주도가 생각나네요. 글고 여기 한국분들도 많아요!<br>Malta reminds me of Jeju island. <a href="https://t.co/j4OqOZFJwM">pic.twitter.com/j4OqOZFJwM</a></p>&mdash; onebtctrip (@onebtctrip) <a href="https://twitter.com/onebtctrip/status/1493064957264633856?ref_src=twsrc%5Etfw">February 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
