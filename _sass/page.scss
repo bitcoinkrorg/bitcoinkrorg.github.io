@@ -289,13 +289,6 @@ article-list
 	vertical-align: top;
 }
 #disqus_thread {
-	#main-nav {
-		display:none !important;
-	}
-	#conversation {
-		display:none !important;
-	}
-	#placement-bottom {
-		display:none !important;
-	}
+	max-height: 270px;
+	overflow: hidden;
 }

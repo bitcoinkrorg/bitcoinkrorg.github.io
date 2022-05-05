@@ -335,3 +335,11 @@ page
 		}
 	}
 }
+@media (max-width: 520px) {
+	max-width: 340px;
+	margin: 0 auto;
+}
+@media (max-width: 400px) {
+	max-width: 300px;
+	max-height: 250px;
+}
