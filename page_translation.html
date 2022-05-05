@@ -8,7 +8,7 @@ permalink: /translation/
 	<div class="page-header wrap">
 		<h6>비트코인 번역글</h6>
 		<h1><a href="">비트코인 번역글</a></h1>
-		<p class="wrapXS">비트코인이 개발된 후 해외의 많은 개발자들과 연구자들, 기관들이 나눈 분석과 이해를 돕기 위한 글들을 커뮤니티가 번역하였습니다.  번역에 도움을 주실 분들은 👉 <a href="mailto:admin@bitcoinkr.org">✉️</a> 혹은 <a href="https://discord.com/invite/YQdyuCcxZH" style="font-weight: bold;color: purple;">Discord</a>
+		<p class="wrapXS">비트코인이 개발된 후 해외의 많은 개발자들과 연구자들, 기관들이 나눈 분석과 이해를 돕기 위한 글들을 커뮤니티가 번역하고 있습니다.  번역에 도움을 주실 분들은 <a href="mailto:admin@bitcoinkr.org">✉️</a> 혹은 <a href="https://discord.com/invite/YQdyuCcxZH" style="font-weight: bold;color: purple;">Discord</a>
 		</p>
 		<p class="wrapL" style="padding-top: 1em;">
 			<a href="" class="original_authors">Lyn Alden</a>
@@ -29,7 +29,7 @@ permalink: /translation/
 			<div class="block wrapL" style="text-align: center;">
 				<ul class="article-list">
 					{% for post in site.categories.translation %}
-					<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.author }}<br>{{ post.ori_author }}</span></li>
+					<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.author }}<br>{{ post.ori_author }}</span><i><img src="/asset/img/profile/{{ post.authorid }}.jpg" alt="" style=""></i></li>
 					{% endfor %}
 				</ul>
 			</div>
