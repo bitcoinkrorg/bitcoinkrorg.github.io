@@ -31,6 +31,11 @@
 			<a href="{{ site.url }}/tags/{{ page.authorid }}" class="btn_address">번역: {{ page.author }}</a>
 
 		</div>
+		{% if page.comments %}
+		<div class="wrapXS">
+			<div id="disqus_thread"></div>
+		</div>
+		{% endif %}
 		
 	</div>
 

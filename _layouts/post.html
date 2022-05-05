@@ -28,6 +28,11 @@
 		<div class="wrapXS">
 			{{ content }}
 		</div>
+		{% if page.comments %}
+		<div class="wrapXS">
+			<div id="disqus_thread"></div>
+		</div>
+		{% endif %}
 	</div>
 
 
