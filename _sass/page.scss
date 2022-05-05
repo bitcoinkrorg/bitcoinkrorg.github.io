@@ -288,3 +288,14 @@ article-list
 	border-radius: .5em;
 	vertical-align: top;
 }
+.disqus_thread {
+	.main-nav {
+		display:none;
+	}
+	.conversation {
+		display:none;
+	}
+	.placement-bottom {
+		display:none;
+	}
+}
