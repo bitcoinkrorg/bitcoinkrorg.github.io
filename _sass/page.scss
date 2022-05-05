@@ -290,12 +290,12 @@ article-list
 }
 #disqus_thread {
 	#main-nav {
-		display:none;
+		display:none !important;
 	}
 	#conversation {
-		display:none;
+		display:none !important;
 	}
 	#placement-bottom {
-		display:none;
+		display:none !important;
 	}
 }
