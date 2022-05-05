@@ -298,7 +298,21 @@ page
 			margin: 0.6em 0;
 
 			a {
-				padding: 2.6em 1.5em 2.3em;
+				padding: 2.6em 1.5em 2.3em 60px;
+			}
+			span {
+				text-align: right;
+				left: auto;
+				right: 1em;
+			}
+			img {
+				right: auto;
+				left: 1em;
+				width: 34px;
+				height: 34px;
+				bottom: auto;
+				top: 3em;
+
 			}
 		}
 	}
