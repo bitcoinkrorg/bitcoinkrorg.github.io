@@ -54,7 +54,7 @@ layout: home
 				<h3>비트코인 칼럼</h3>
 				</hgroup>
 				<ul class="article-list">
-					{% for post in site.categories.column  limit: 6 %}
+					{% for post in site.categories.column  limit: 16 %}
 					<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.author }}</span><i><img src="/asset/img/profile/{{ post.authorid }}.jpg" alt="" style=""></i></li>
 					{% endfor %}
 				</ul>
@@ -82,7 +82,7 @@ layout: home
 				<h3>비트코인 피플</h3>
 				</hgroup>
 				<ul class="profile-list">
-					{% for post in site.categories.interview  limit: 5 %}
+					{% for post in site.categories.interview  limit: 16 %}
 					<li><a href="{{ post.url | prepend: site.baseurl }}" style="background-image: url(asset/img/profile_supporters/{{ post.authorid }}.jpg);" class="profile-photo"></a><a href="{{ post.url | prepend: site.baseurl }}" class="profile-name">{{ post.title }}</a></li>
 					{% endfor %}
 				</ul>
