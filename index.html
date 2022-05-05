@@ -55,7 +55,7 @@ layout: home
 				</hgroup>
 				<ul class="article-list">
 					{% for post in site.categories.column  limit: 16 %}
-					<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.author }}</span><i><img src="/asset/img/profile/{{ post.authorid }}.jpg" alt="" style=""></i></li>
+					<li><a href="{{ post.url | prepend: site.baseurl }}" class="post-title">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.author }}</span><i><a href="{{ site.url }}/tags/{{ post.authorid }}"><img src="/asset/img/profile/{{ post.authorid }}.jpg" alt="" style=""></a></i></li>
 					{% endfor %}
 				</ul>
 				<a href="{{ site.url }}/column" class="btn_more">More</a>
@@ -68,7 +68,7 @@ layout: home
 				</hgroup>
 				<ul class="article-list">
 					{% for post in site.categories.translation  limit: 24 %}
-					<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.author }}<br>{{ post.ori_author }}</span><i><img src="/asset/img/profile/{{ post.authorid }}.jpg" alt="" style=""></i></li>
+					<li><a href="{{ post.url | prepend: site.baseurl }}" class="post-title">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.author }}<br>{{ post.ori_author }}</span><i><a href="{{ site.url }}/tags/{{ post.authorid }}"><img src="/asset/img/profile/{{ post.authorid }}.jpg" alt="" style=""></a></i></li>
 					{% endfor %}
 				</ul>
 				<a href="{{ site.url }}/translation" class="btn_more">More</a>
