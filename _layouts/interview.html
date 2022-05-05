@@ -28,11 +28,11 @@
 		<div class="wrapXS">
 			{{ content }}
 		</div>
+		{% if page.comments %}
 		<div class="wrapXS">
-			{% if page.comments %}
 			<div id="disqus_thread"></div>
-			{% endif %}
 		</div>
+		{% endif %}
 	</div>
 
 	<div class="block" style="text-align: center;padding: 4em 0;">
