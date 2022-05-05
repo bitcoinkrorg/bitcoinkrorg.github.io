@@ -36,7 +36,7 @@
 	<div class="block" style="text-align: center;padding-top:4em;padding-bottom:4em;">
 				<ul class="article-list">
 					{% for post in site.categories.column %}
-					<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.author }}</span></li>
+					<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time> <span>{{ post.author }}</span><i><img src="/asset/img/profile/{{ post.authorid }}.jpg" alt="" style=""></i></li>
 					{% endfor %}
 				</ul>
 	</div>
