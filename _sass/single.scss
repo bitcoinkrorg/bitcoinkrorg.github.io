@@ -56,8 +56,13 @@ post-content, text
 .post-excerpt {
 	font-size: 1.2em;
 }
+.featured-image {
+	background-size: cover;
+	background-position: center;
+	height: 25em;
+	width: 100%;
+}
 .post-content {
-	padding: 5em 0;
 	font-size: 1.2em;
 	background-color: #f4f4f4;
 }
