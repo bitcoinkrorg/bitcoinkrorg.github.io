@@ -15,17 +15,17 @@
 
 		</div>
 		<div class="block post-excerpt">
+
 			<p>"{{ page.excerpt }}"</p>
 		</div>
 	</div>
 	<div class="post-content text">
-		{% if page.thumbnail %}
-		<div class="featured-image">
-			<img src="{{ site.url }}/assets/img/thumb/{{ page.thumbnail }}" alt="">
+		{% if page.featured %}
+		<div class="featured-image" style="background-image: url({{ site.url }}/asset/img/featured/{{ page.featured }});">
 		</div>
 		{% endif %}
 		
-		<div class="wrapXS">
+		<div class="wrapXS" style="padding-top: 5em;">
 			{{ content }}
 			{% if page.ori_address %}
 			original: <a href="{{ page.ori_address }}" class="btn_address" target="_blank" style="overflow-wrap: break-word;">{{ page.ori_address }}</a>

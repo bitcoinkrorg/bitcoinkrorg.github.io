@@ -19,13 +19,12 @@
 		</div>
 	</div>
 	<div class="post-content text">
-		{% if page.thumbnail %}
-		<div class="featured-image">
-			<img src="{{ site.url }}/assets/img/thumb/{{ page.thumbnail }}" alt="">
+		{% if page.featured %}
+		<div class="featured-image" style="background-image: url({{ site.url }}/asset/img/featured/{{ page.featured }});">
 		</div>
 		{% endif %}
 		
-		<div class="wrapXS">
+		<div class="wrapXS" style="padding-top: 5em;">
 			{{ content }}
 			<a href="{{ page.ori_address }}" class="btn_address" target="_blank">원본글: {{ page.ori_title }}</a><br>
 			<a href="{{ site.url }}/tags/{{ page.authorid }}" class="btn_address">번역: {{ page.author }}</a>
