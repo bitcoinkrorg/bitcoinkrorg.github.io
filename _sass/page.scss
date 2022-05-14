@@ -293,3 +293,14 @@ article-list
 	overflow: hidden;
 	margin-top: 5em;
 }
+.lightning-list {
+	li {
+		text-align: left;
+		box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.12);
+		padding: 1em;
+		margin-bottom: .8em;
+		a {
+			word-break: break-all;
+		}
+	}
+}
