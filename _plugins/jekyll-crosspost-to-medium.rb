@@ -181,8 +181,8 @@ module Jekyll
 
 
     def crosspost_to_medium(payload)
-      user_id = ENV['MEDIUM_USER_ID'] or false
-      token = ENV['MEDIUM_INTEGRATION_TOKEN'] or false
+      user_id = ENV['11dc71592e1ea703b059990150ecddcacdbcd98842792e4ed9afe9e73e95073eb'] or false
+      token = ENV['21c1e1ab9b7194dc281a12e35678542d12735187300e99b628cdaee8ace1e4776'] or false
       medium_api = URI.parse("https://api.medium.com/v1/users/#{user_id}/posts")
 
       # Build the connection
