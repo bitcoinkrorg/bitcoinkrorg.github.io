@@ -37,7 +37,7 @@ module Jekyll
 
       if globally_enabled
         # puts "Cross-posting enabled"
-        user_id = ENV['bitcoinkorea'] or false
+        user_id = ENV['11dc71592e1ea703b059990150ecddcacdbcd98842792e4ed9afe9e73e95073eb'] or false
         token = ENV['21c1e1ab9b7194dc281a12e35678542d12735187300e99b628cdaee8ace1e4776'] or false
 
         if ! user_id or ! token
