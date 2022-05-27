@@ -1,5 +1,5 @@
 # IS BITCOIN ANONYMOUS?
-*  [BITCOIN MAGAZINE](https://bitcoinmagazine.com/authors/bitcoin-magazine) AUG 17, 2020
+*  [BITCOIN MAGAZINE](https://bitcoinmagazine.com/authors/bitcoin-magazine) AUG 17, 2020.
 
 Bitcoin is not entirely anonymous. In reality, it is /pseudonymous/ because each user has a public address that theoretically could be traced back to an IP address or exchange account (and by proxy, an actual identity) through proper network analysis.
 
